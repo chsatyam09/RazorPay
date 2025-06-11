@@ -40,4 +40,33 @@ fun Paynow() {
     }
 }
 
+//@Composable
+//fun Paynow() {
+//    val context = LocalContext.current
+//
+//    Surface(
+//        modifier = Modifier
+//            .fillMaxSize()
+//            .background(color = Color.Gray)
+//    ) {
+//        Box(
+//            modifier = Modifier
+//                .fillMaxWidth()
+//                .height(50.dp), // Increased height for better button visibility
+//            contentAlignment = Alignment.Center
+//        ) {
+//            Button(onClick = {
+//                // Replace "your_api_key_here" with your actual Razorpay API key
+//                startPayment(
+//                    context as Activity,
+//                    apiKey = "uo6HgL3eXeaDzupWmlJZka57",
+//                    customOptions = "" // Use "" to let startPayment apply default options
+//                )
+//            }) {
+//                Text(text = "Pay with Razorpay")
+//            }
+//        }
+//    }
+//}
+
 
